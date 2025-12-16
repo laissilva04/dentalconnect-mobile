@@ -1,10 +1,11 @@
-// Telas de autenticação
 export { default as LoginScreen } from './auth/LoginScreen';
 export { default as CadastroScreen } from './auth/CadastroScreen';
 export { default as EsqueciSenhaScreen } from './auth/EsqueciSenhaScreen';
-
-// Telas principais
 export { default as HomeScreen } from './home/HomeScreen';
-
-// Telas de configurações
 export { default as ConfiguracoesScreen } from './settings/ConfiguracoesScreen';
+export { default as BuscarDentistaScreen } from './home/BuscarDentistaScreen';
+export { default as ProcedimentosScreen } from './home/ProcedimentosScreen';
+export { default as AgendarConsultaScreen } from './consulta/AgendarConsultaScreen';
+export { default as DetalhesLocalScreen } from './consulta/DetalhesLocalScreen';
+export { default as ClinicasPorCidadeScreen } from './consulta/ClinicasPorCidadeScreen';
+export { default as SelecionarHorarioScreen } from './consulta/SelecionarHorarioScreen';
